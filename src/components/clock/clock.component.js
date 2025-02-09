@@ -1,6 +1,7 @@
 class Clock extends Component {
   refs = {
-    clock: ".clock-time",
+    date: ".clock-date",
+    time: ".clock-time",
     icon: ".clock-icon",
   };
 
@@ -14,15 +15,36 @@ class Clock extends Component {
 
   style() {
     return `
+        .clock {
+          display: flex;
+          flex-direction: row;
+          justify-contents: center;
+          align-items: center;
+          height: 100%;
+        }
+
+        .clock-date {  
+          white-space: nowrap;
+          font: 450 10pt 'Roboto', sans-serif;
+          color: ${CONFIG.palette.text};
+          letter-spacing: .7pt;
+          margin-right: 10px;
+          display: none;
+        }
+
         .clock-time {
-            white-space: nowrap;
-            font: 300 9pt 'Roboto', sans-serif;
-            color: ${CONFIG.palette.text};
-            letter-spacing: .5px;
+          white-space: nowrap;
+          font: 300 10pt 'Roboto', sans-serif;
+          color: ${CONFIG.palette.text};
+          letter-spacing: .7pt;
+        }
+
+        .clock:hover .clock-date {
+          display: inline-block;
         }
 
         .clock-icon {
-            font-size: 10pt;
+            font-size: 14pt;
             margin-right: 10px;
         }
     `;
@@ -30,22 +52,30 @@ class Clock extends Component {
 
   template() {
     return `
-        <span class="material-icons clock-icon">schedule</span>
-        <p class="clock-time"></p>
-    `;
+        <span class="clock">
+            <span class="material-icons clock-icon">schedule</span>
+            <p class=clock-date></p>
+            <p class=clock-time></p>
+        </span>`;
   }
 
   setIconColor() {
     this.refs.icon.style.color = CONFIG.palette.maroon;
   }
 
+  setDate() {
+    const date = new Date();
+    this.refs.date = date.strftime(CONFIG.clock.date);
+  }
+
   setTime() {
     const date = new Date();
-    this.refs.clock = date.strftime(CONFIG.clock.format);
+    this.refs.time = date.strftime(CONFIG.clock.time);
   }
 
   connectedCallback() {
     this.render().then(() => {
+      this.setDate();
       this.setTime();
       this.setIconColor();
 

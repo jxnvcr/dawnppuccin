@@ -26,7 +26,7 @@ class Links extends Component {
                 .map(
                   (link) => `
                   <div class="link-info">
-                    <a href="${link.url}" target="_blank">
+                    <a href="${link.url}" target="_${CONFIG.tabOpenMode}" rel="noopener noreferrer">
                       ${Links.getIcon(link)}
                       ${link.name ? `<p class="link-name">${link.name}</p>` : ""}
                     </a>
@@ -291,6 +291,7 @@ class Tabs extends Component {
           <div class="categories">
             ${Category.getAll(this.tabs)}
           </div>
+          <search-bar></search-bar>
           <status-bar class="!-"></status-bar>
         </div>
       </div>

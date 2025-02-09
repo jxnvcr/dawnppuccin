@@ -61,13 +61,14 @@ class Weather extends Component {
       }
 
       .weather-temperature {
-          font: 300 9pt 'Roboto', sans-serif;
+          font: 300 10pt 'Roboto', sans-serif;
           color: ${CONFIG.palette.text};
           white-space: nowrap;
           display: flex;
           align-items: center;
           justify-content: center;
           height: 100%;
+          letter-spacing: .7pt;
       }
 
       .weather-temperature:hover .weather-temperature-location {
@@ -80,12 +81,7 @@ class Weather extends Component {
       }
 
       .weather-temperature-location {
-          font-weight: 500;
-      }
-
-      .weather-temperature-value
-      {
-          font-weight: bold;
+          font-weight: 400;
       }
 
       .weather-condition-icon {

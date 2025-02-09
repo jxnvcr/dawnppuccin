@@ -2,14 +2,27 @@ class Config {
   defaults = {
     overrideStorage: false,
     temperature: {
-      location: "London",
+      location: "Malolos",
       scale: "C",
     },
     clock: {
-      format: "h:i p",
+      date: "B e, A",
+      time: "h:i p",
+    },
+    search: {
+      engines: {
+        default: ['https://duckduckgo.com/?t=h_&q=', 'DuckDuckGo'],
+        
+        google: ['https://google.com/search?q=', 'Google'],
+        duck: ['https://duckduckgo.com/?t=h_&q=', 'DuckDuckGo'],
+      }
+    },
+    keybindings: {
+      "s": 'search-bar'
     },
     disabled: [],
     openLastVisitedTab: false,
+    tabOpenMode: "self",
     tabs: [],
   };
 
