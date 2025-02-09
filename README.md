@@ -85,6 +85,7 @@ You can use different add-ons/extensions for it
 | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
 | <img src="src/img/banners/cbg-09.gif" width=175> | <img src="src/img/banners/cbg-10.gif" width=175> | <img src="src/img/banners/cbg-11.gif" width=175> | <img src="src/img/banners/cbg-12.gif" width=175> |
 
-| cbg-13                                           | cbg-14                                           | cbg-15                                           |
-| ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| <img src="src/img/banners/cbg-13.gif" width=175> | <img src="src/img/banners/cbg-14.gif" width=175> | <img src="src/img/banners/cbg-15.gif" width=175> |
+| cbg-13                                           | cbg-14                                           | cbg-15                                           | cbg-16
+| ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
+| <img src="src/img/banners/cbg-13.gif" width=175> | <img src="src/img/banners/cbg-14.gif" width=175> | <img src="src/img/banners/cbg-15.gif" width=175> | <img src="src/img/banners/cbg-16.gif" width=175> |
+
