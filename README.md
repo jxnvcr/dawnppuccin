@@ -1,7 +1,7 @@
 <h3 align="center">
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-  Catppuccin <a href="https://pivoshenko.github.io/catppuccin-startpage">Startpage</a>
+  Dawnppuccin <a href="https://pivoshenko.github.io/catppuccin-startpage">Startpage</a>
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -23,10 +23,7 @@
 
 ## 🪴 Overview
 
-A minimalistic and customizable startpage featuring the [**Catppuccin palettes**](https://catppuccin.com/palette).
-Designed for both aesthetics and functionality with seamless hosting on GitHub Pages.
-This startpage is based on the [`dawn`](https://github.com/b-coimbra/dawn), which has even more functionality.
-I've tweaked the page to match my [`dotfiles`](https://github.com/pivoshenko/dotfiles) so check them out as well.
+A combination of the [`Dawn`](https://github.com/b-coimbra/dawn/) and [`Catppuccin`](https://github.com/pivoshenko/catppuccin-startpage) startpage. I do not claim to have made the whole project. I just added my own tweaks and combined the best of both worlds into one. 
 
 ### 🧠 Main principles
 
