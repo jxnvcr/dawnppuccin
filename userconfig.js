@@ -285,6 +285,85 @@ const default_config = {
         }
       ],
     },
+    {
+      name: "gaming",
+      background_url: "src/img/banners/cbg-15.gif",
+      categories: [
+        {
+          name: "subs",
+          links: [
+            {
+              name: "/piracy",
+              alt: ["reddit piracy", "piracy reddit", "r/piracy"],
+              url: "https://reddit.com/r/piracy",
+              icon: "flag",
+              icon_color: palette.green
+            },
+            {
+              name: "/CrackWatch",
+              alt: ["reddit crackwatch", "crackwatch", "crackwatch reddit", "r/crackwatch"],
+              url: "https://reddit.com/r/CrackWatch",
+              icon: "egg-cracked",
+              icon_color: palette.peach
+            },
+            {
+              name: "/PiratedGames",
+              alt: ["piratedgames", "reddit piratedgames", "piratedgames reddit", "r/piratedgames"],
+              url: "https://reddit.com/r/PiratedGames",
+              icon: "device-gamepad",
+              icon_color: palette.red
+            },
+          ]
+        },
+        {
+          name: "spots",
+          links: [
+            {
+              name: "fitgirl",
+              alt: ["fitgirl-repacks", "fitgirl repacks", "fg repacks", "fg"],
+              url: "https://fitgirl-repacks.site",
+              icon: "gender-female",
+              icon_color: palette.green
+            },
+            {
+              name: "dodi",
+              alt: ["dodi-repacks", "dodi repacks", "dodi"],
+              url: "https://dodi-repacks.site",
+              icon: "letter-d",
+              icon_color: palette.peach
+            },
+            {
+              name: "1337x",
+              alt: ["1337"],
+              url: "https://1337x.to",
+              icon: "lambda",
+              icon_color: palette.red
+            },
+            {
+              name: "fmhy",
+              alt: ["freemedia", "fmheckyeah", "freemediaheckyeah", "free media heck yeah"],
+              url: "https://fmhy.net",
+              icon: "player-play",
+              icon_color: palette.blue
+            },
+            {
+              name: "ziperto",
+              alt: [],
+              url: "https://ziperto.piraproxy.app/",
+              icon: "letter-z",
+              icon_color: palette.mauve
+            },
+            {
+              name: "gamebanana",
+              alt: ["game banana"],
+              url: "https://gamebanana.com/",
+              icon: "device-desktop-cog",
+              icon_color: palette.rosewater
+            }
+          ]
+        }
+      ]
+    }
   ],
 };
 
