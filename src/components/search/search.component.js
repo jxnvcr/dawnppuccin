@@ -174,7 +174,7 @@ class Search extends Component {
           if (this.engines[prefix.substr(1)] === undefined) {
             engine = defaultEngine;
           } else {
-            engine = this.engines[prefix.substr(1)];
+            engine = this.engines[prefix.substr(1)][0];
           }
 
           args = args.slice(1);
