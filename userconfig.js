@@ -14,8 +14,13 @@ const default_config = {
   },
   search: {
     engines: {
-      google: ['https://google.com/search?q=', 'Google'],
+      default: ['https://duckduckgo.com/?t=h_&q=', 'DuckDuckGo'],
+
+      g: ['https://google.com/search?q=', 'Google'],
       duck: ['https://duckduckgo.com/?t=h_&q=', 'DuckDuckGo'],
+      bing: ['https://www.bing.com/search?q=', 'Bing'],
+      eco: ['https://www.ecosia.org/search?method=index&q=', 'Ecosia'],
+      wk: ['https://en.wikipedia.org/wiki/', 'Wikipedia'],
     } 
   },
   keybindings: {
