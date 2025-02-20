@@ -20,6 +20,7 @@ const default_config = {
       duck: ['https://duckduckgo.com/?t=h_&q=', 'DuckDuckGo'],
       bing: ['https://www.bing.com/search?q=', 'Bing'],
       eco: ['https://www.ecosia.org/search?method=index&q=', 'Ecosia'],
+      yt: ['https://www.youtube.com/results?search_query=testing', 'YouTube'],
       wk: ['https://en.wikipedia.org/wiki/', 'Wikipedia'],
     } 
   },
