@@ -20,7 +20,7 @@ const default_config = {
       duck: ['https://duckduckgo.com/?t=h_&q=', 'DuckDuckGo'],
       bing: ['https://www.bing.com/search?q=', 'Bing'],
       eco: ['https://www.ecosia.org/search?method=index&q=', 'Ecosia'],
-      yt: ['https://www.youtube.com/results?search_query=testing', 'YouTube'],
+      yt: ['https://www.youtube.com/results?search_query=', 'YouTube'],
       wk: ['https://en.wikipedia.org/wiki/', 'Wikipedia'],
     } 
   },
@@ -96,7 +96,7 @@ const default_config = {
             {
               name: "proton drive",
               alt: ["pdrive"],
-              url: "https://drive.protone.me",
+              url: "https://drive.proton.me",
               icon: "folder",
               icon_color: palette.blue
             },
