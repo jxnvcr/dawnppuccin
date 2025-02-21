@@ -118,6 +118,20 @@ const default_config = {
               url: "https://canva.com",
               icon: "artboard",
               icon_color: palette.peach
+            },
+            {
+              name: "figma",
+              alt: [],
+              url: "https://figma.com",
+              icon: "brand-figma",
+              icon_color: palette.red
+            },
+            {
+              name: "notion",
+              alt: [],
+              url: "https://notion.so",
+              icon: "brand-notion",
+              icon_color: palette.blue
             }
           ]
         }
